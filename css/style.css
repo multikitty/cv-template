@@ -16,7 +16,11 @@ body {
     color: #888;
 }
 
-.marquee {
+.cv #about, .cv #resume {
+    display: block !important;
+}
+
+/* .marquee {
     display: inline-block;
     width: 100%;
     overflow: hidden;
@@ -33,7 +37,7 @@ body {
 
 .marquee:hover .email {
     margin-left: -50px;
-}
+} */
 
 svg {
     fill: currentcolor;
@@ -1853,12 +1857,13 @@ body.dark .loader_line:after {
 }
 
 .iknow_tm_resume .info_list > ul > li .list_inner ul {
-    padding-top: 5px;
+    padding-top: 20px;
     padding-left: 20px;
 }
 
 .iknow_tm_resume .info_list > ul > li .list_inner ul li {
-    font-size: 15px;
+    margin-bottom: 5px;
+    font-size: 16px;
 }
 
 .iknow_tm_resume .info_list > ul > li .short {
